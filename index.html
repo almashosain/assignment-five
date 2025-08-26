@@ -4,8 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!-- Daisy UI CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+      <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css File Add -->
+     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    
+<!-- Navigation Bar -->
+<div class="flex flex-col md:flex-row justify-between items-center my-[24px] py-[24px]  md:px-[60px]  gap-4">
+    <!-- Left Logo -->
+    <div id="left">
+        <img src="./assets/Logo.png" alt="" class="h-[45px] md:h-[50px] ">
+    </div>
+
+    <!-- Right Side -->
+    <div id="right" class="flex flex-wrap justify-center items-center gap-[20px] ">
+        
+        <!-- Heart -->
+        <div id="heart" class="flex justify-center items-center gap-[10px] h-[44px] md:h-[52px] w-auto  bg-[#41ff6b1a] px-4 py-2 rounded-[50px]">
+            <h1 class="flex items-center font-bold">0</h1>
+            <img src="./assets/heart.png" alt="" class="h-[20px] ">
+        </div> 
+
+        <!-- Coin -->
+        <div id="coin" class="flex justify-center  items-center gap-[10px] h-[44px]  w-auto  bg-[#41ff6b1a] px-4 py-2 rounded-[50px]">
+            <h1 class="flex items-center font-bold ">100</h1>
+            <img src="./assets/coin.png" alt="" class="h-[20px] ">
+        </div>
+
+        <!-- Copy Button -->
+        <div id="copy">
+            <button class="btn bg-[#00A63E] btn-success h-[44px] px-6 flex items-center gap-[10px] justify-center text-white rounded-[50px]">
+                2 Copy
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Banner Section -->
+
+<div class="flex w-full md:h-[240px]  h-auto md:py-[12px]  px-[60px] flex-col justify-center items-center gap-[11px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]  ]">
+
+<img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px]">
+<h1 class="text-white font-bold hindi_madurai_font">Emergency Service Directory</h1>
+<h3 class="text-white font-semibold hindi_madurai_font">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</h3>
+</div>
+
+<!-- Main Section  -->
+
+
+<!-- Left Box -->
+<div class="flex bg-[#F5FFF6] m-[60px] h-[1000px]">
+    <div class="border-2 border-amber-700  w-3/4">
+<div class="w-[435px] h-[360px] rounded-[12px] border-2 border-amber-800 p-[32px] bg-white">
+   <div class="flex justify-between items-center">
+    <img src="./assets/emergency.png" alt="" class="w-[60px] h-[60] bg-[#FFE3E2] rounded-[16px]">
+  <button>
+    <i  class="fa-regular fa-heart"></i>
+  </button>
+    </div>
+    <div class="mt-[16px]">
+        <h1 class="hindi_madurai_font font-bold">National Emergency Number</h1>
+        <h2 class="hindi_madurai_font text-[#5C5C5C]">National Emergency</h3>
+            <p class="mt-[24px] font-bold">999</p>
+            <p class="hindi_madurai_font py-[6px] px-[16px] flex items-center bg-[#F2F2F2] h-[35px] w-[50px] rounded-[16px] text-[#5C5C5C]">All</p>
+    </div>
+    <div class="flex gap-[5px] items-center justify-center mt-[30px]">
+    <button class="btn btn-outline  h-[40px] w-[180px] flex items-center justify-center rounded-[8px] border-[1px] border-[#D4D6D5] bg-white p-[16px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
+     <div class="flex items-center">
+<i class="fa-regular fa-copy"></i>
+<h2 class="text-[#5C5C5C]">Copy</h2>
+</div>
+</button>
+<button class="btn btn-soft btn-success w-[180px] h-[40px]">
+   <i class="fa-solid fa-phone"></i>
+   <h2>Call</h2>
+</button>     
+
+    </div>
+</div>
+
+
+
+    </div>
+
+<!-- Right History      -->
+    <div class="border-2 border-purple-800  w-1/4">
+
+    </div>
+
+</div>
+
 </body>
 </html>
